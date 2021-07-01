@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Assets/patryk-gauza-vs0tzSHVcac-unsplash.jpg);
+    background-size: cover;
+    /* background: rgba(76, 175, 80, 0.1); */
+    /* background: rgba(76, 175, 80, 0.6); */
+
+    
+}
+.container-fluid image{
+    
+}
+.navbar{
+    display: grid;
+}
+ul{
+    list-style: none;
+    color: white;
+}
+.nav{
+    margin: auto;
+    width:50%;
+    height: 10%;
+    display: grid (1 1 1 1);
+    justify-content:space-evenly;
+}
+.nav a{
+    /* text-align: center; */
+    color: white;
+    font-size: large;
+}
+.row{
+    width: screen;
+    background-color: rgba(37, 29, 8, 0.795);
+    height: 105;
+    align-items: center;
+}
+.btn{
+    align-items: center;
+    margin: auto;
+}

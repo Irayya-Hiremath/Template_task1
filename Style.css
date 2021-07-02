@@ -6,16 +6,14 @@
 .container-fluid{
     height: 100vh;
     width: 100%;
-    background-image: url(Assets/patryk-gauza-vs0tzSHVcac-unsplash.jpg);
+    background-image:linear-gradient(rgba(20,20,20,.5),rgba(20,20,20,.5)), url(Assets/patryk-gauza-vs0tzSHVcac-unsplash.jpg);
     background-size: cover;
     /* background: rgba(76, 175, 80, 0.1); */
     /* background: rgba(76, 175, 80, 0.6); */
+    
+    
+}
 
-    
-}
-.container-fluid image{
-    
-}
 .navbar{
     display: grid;
 }
@@ -29,6 +27,8 @@ ul{
     height: 10%;
     display: grid (1 1 1 1);
     justify-content:space-evenly;
+    font-size: 0.9rem;
+    font-weight: 800;
 }
 .nav a{
     /* text-align: center; */
@@ -37,11 +37,15 @@ ul{
 }
 .row{
     width: screen;
-    background-color: rgba(37, 29, 8, 0.795);
+    background-color:rgba(47, 23, 15, 0.9);
     height: 105;
     align-items: center;
 }
 .btn{
-    align-items: center;
-    margin: auto;
+    /* margin-top: -10px;
+    position: absolute;
+    z-index:1;
+    margin-left: auto;
+    bottom: -10px; */
+
 }

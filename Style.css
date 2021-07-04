@@ -3,49 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container-fluid{
+body{
     height: 100vh;
-    width: 100%;
-    background-image:linear-gradient(rgba(20,20,20,.5),rgba(20,20,20,.5)), url(Assets/patryk-gauza-vs0tzSHVcac-unsplash.jpg);
+    background-image:linear-gradient(rgba(20,20,20,.7),rgba(20,20,20,.7)), url(./Assets/bg.jpg);
     background-size: cover;
-    /* background: rgba(76, 175, 80, 0.1); */
-    /* background: rgba(76, 175, 80, 0.6); */
-    
-    
-}
-
-.navbar{
-    display: grid;
-}
-ul{
-    list-style: none;
-    color: white;
-}
-.nav{
-    margin: auto;
-    width:50%;
-    height: 10%;
-    display: grid (1 1 1 1);
-    justify-content:space-evenly;
-    font-size: 0.9rem;
-    font-weight: 800;
-}
-.nav a{
-    /* text-align: center; */
-    color: white;
-    font-size: large;
-}
-.row{
-    width: screen;
-    background-color:rgba(47, 23, 15, 0.9);
-    height: 105;
-    align-items: center;
-}
-.btn{
-    /* margin-top: -10px;
-    position: absolute;
-    z-index:1;
-    margin-left: auto;
-    bottom: -10px; */
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 }
+.border-width {
+    border: 5px solid wheat;
+
+}
+.nav-link{
+    color:rgba(255, 255, 255, 0.7);
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   
+  }
